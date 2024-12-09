@@ -23,6 +23,32 @@ STEPS
 | Region: | East US (make sure to note the region and Vnet) |
 | Authentication: | Password (Provide Username/Password) |
 
+![image](https://github.com/user-attachments/assets/2f5bd5cb-5648-49fc-9da6-edded6931adc)
+
+- On the Disk Tab, Networking, Management, and Advanced we will let them remain as their default Settings.
+
+- For the Monitoring tab, we will disable boot diagnostics as it will not be needed in the lab. You can learn more about boot diagnostics 
+<a href=https://learn.microsoft.com/en-us/azure/virtual-machines/boot-diagnostics>here</a>
+
+![image](https://github.com/user-attachments/assets/a4157151-ce52-4acb-bea0-d86f6f606b02)
+
+- Review Create → Create
+
+- Connect to the OpenVAS VM via SSH using PowerShell (Windows) or Terminal (MacOS).
+
+- Wait until the OpenVAS deployment completes and access the web app URL (For this example: https://172.190.177.16.c.hossted.com).
+
+- ![image](https://github.com/user-attachments/assets/3903a7c8-7de2-4b23-b709-3b76470df5c2)
+
+- Log in with provided credentials or try admin/admin if needed (admin/admin was used below).
+
+- ![image](https://github.com/user-attachments/assets/a2c7ddbf-c2f1-4ea1-9683-050d931dc8d6)
+
+- Reset the admin password to a password of your choosing in the example I will be using "incorrect".
+
+- To change the password, you will go to the person icon at the top right of the page, then select the pencil/note icon near the top left of the page. You will then be shown a pop-up to make the change of the old password to the new password.
+
+![image](https://github.com/user-attachments/assets/005f1b7d-52cb-4728-81c8-0c2403770b6d)
 
 
 </details>
